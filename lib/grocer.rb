@@ -25,7 +25,7 @@ def consolidate_cart(cart)
   answer.each{|akey|
   
   akey[:count] = 1
-  binding.pry
+
   
   }
   
