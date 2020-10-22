@@ -24,12 +24,13 @@ def consolidate_cart(cart)
   }
   answer.each{|akey|
   
-  akey[:count] = 1
-
-  
+  if akey[:count]
+    akey[:count] +=1
+  else  
+    akey[:count] = 1
   }
   
-
+answer
 end
 
 
