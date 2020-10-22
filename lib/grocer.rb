@@ -22,7 +22,7 @@ def consolidate_cart(cart)
       end
   }
   }
-  answer.each{|key|
+  answer.each{|akey|
   
   binding.pry
   
