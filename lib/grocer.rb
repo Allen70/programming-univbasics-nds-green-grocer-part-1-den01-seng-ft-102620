@@ -19,16 +19,14 @@ def consolidate_cart(cart)
     
       if bkey == :item
       answer.push(key)
-      answer.each{|akey|
-      answer[answer.length-1][:count] = 1
-      
-      binding.pry
+     
       }
       end
-
-      
   }
   }
+  
+  
+  binding.pry
 end
 
 
