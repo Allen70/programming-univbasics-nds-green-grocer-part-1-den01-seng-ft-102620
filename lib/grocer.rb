@@ -28,6 +28,7 @@ def consolidate_cart(cart)
     akey[:count] +=1
   else  
     akey[:count] = 1
+  end
   }
   
 answer
