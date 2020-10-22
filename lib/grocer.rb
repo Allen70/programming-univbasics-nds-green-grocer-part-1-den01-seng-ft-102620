@@ -20,7 +20,7 @@ def consolidate_cart(cart)
       if bkey == :item
       answer.push(key)
      
-      }
+      
       end
   }
   }
